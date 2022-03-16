@@ -50,6 +50,7 @@ cd ~
 mkdir nginx
 cd nginx
 # Please check to ensure these repositories are not deprecated
+# The versions of these files used in this project are included in this repository
 git clone https://github.com/arut/nginx-rtmp-module.git
 git clone https://github.com/nginx/nginx.git
 cd nginx 
