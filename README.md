@@ -1,5 +1,20 @@
 # raspberry-pi-rtmp-server-with-dropbox-backup
 
+## Open Source License Acknowledgements 
+
+### NGINX
+License: BSD 2-Clause "Simplified" License  
+https://github.com/nginx/nginx  
+Copyright 2002-2021 Igor Sysoev  
+Copyright 2011-2022 Nginx, Inc. 
+
+### NGINX RTMP Module
+License: BSD 2-Clause "Simplified" License  
+https://github.com/arut/nginx-rtmp-module  
+Copyright 2012-2014, Roman Arutyunyan  
+
+
+
 ## Setup from Command Line
 
 ### Introduction
