@@ -203,7 +203,10 @@ cd ~/Desktop/RTMP # change to RTMP directory
 # date syntax is ddmonthyy e.g. 07March22, this can be changed as needed
 mv Recordings `date +%d%B%y` 
 <<Date
-Technically, renaming the Recordings folder is not necessary. However, this step is useful to make it easier to save videos locally in the future if needed. (Comment out the rm -r `date` line.) If this step is skipped, copy the ~/Desktop/RTMP/Recordings path instead of the dated path. The folder will still need to be emptied using rm -r or other means so that new recordings can be saved without conflicts.
+Technically, renaming the Recordings folder is not necessary. However, this step is useful to make it 
+easier to save videos locally in the future if needed. (Comment out the rm -r `date` line.) If this 
+step is skipped, copy the ~/Desktop/RTMP/Recordings path instead of the dated path. The folder will 
+still need to be emptied using rm -r or other means so that new recordings can be saved without conflicts.
 Date
 
 # upload the recordings to Dropbox (Or other cloud storage)
