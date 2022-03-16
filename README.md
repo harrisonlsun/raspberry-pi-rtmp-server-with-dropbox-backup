@@ -2,6 +2,8 @@
 
 ## Open Source License Acknowledgements 
 
+This product contains software provided by NGINX and its contributors.
+
 ### NGINX
 License: BSD 2-Clause License  
 https://github.com/nginx/nginx  
