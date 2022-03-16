@@ -162,6 +162,7 @@ In the app console, create an app or click on an existing app and click on Gener
 Under the Permissions tab, allow the following:
 files.content.write and files.content.read
 OAUTH
+
 <<remote
 In this step, an rclone remote is configured.
 remote
