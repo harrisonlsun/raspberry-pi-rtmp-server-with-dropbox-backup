@@ -70,7 +70,7 @@ sudo /usr/local/nginx/sbin/nginx
 
 ### Configure RTMP
 ```bash
-# Configure RTMP
+# Configure RTMP (nginx.conf)
 user pi;
 worker_processes  1;
 
