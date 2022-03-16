@@ -60,13 +60,7 @@ cd nginx
 make
 sudo make install
 vim nginx.conf # see Configure RTMP instructions below
-# copy the configuration file to /usr/local/nginx/conf
-sudo cp ~/nginx/nginx/nginx.conf /usr/local/nginx/conf
-# test the configuration file
-sudo /usr/local/nginx/sbin/nginx -t
-# run the RTMP server
-sudo /usr/local/nginx/sbin/nginx
-```
+```  
 
 ### Configure RTMP
 ```bash
@@ -140,6 +134,16 @@ rtmp {
 		}
 	}
 }
+```
+
+### Copy Config File to /usr/local/nginx/conf
+```
+# copy the configuration file to /usr/local/nginx/conf
+sudo cp ~/nginx/nginx/nginx.conf /usr/local/nginx/conf
+# test the configuration file
+sudo /usr/local/nginx/sbin/nginx -t
+# run the RTMP server
+sudo /usr/local/nginx/sbin/nginx
 ```
 
 ### RTMP Folder
